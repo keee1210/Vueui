@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/discovery/discovery",
+    "pages/message/message",
+    "pages/user/user"
+  ],
+  "window": {
+    
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50,
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "附近家政",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor":"#1CB3FC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"",
+        "selectedIconPath":""
+      },
+      {
+        "pagePath": "pages/discovery/discovery",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  }
+}
